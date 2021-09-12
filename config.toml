@@ -1,3 +1,40 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://mebrahimi.ir"
+languageCode = "fa-IR"
+title = "محمد ابراهیمی"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/moheb2000\" target=\"_blank\">محمد ابراهیمی</a> 2021"
+disqusShortname = "mebrahimi"
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Mohammad Ebrahimi" # Author full name
+authorEmail = "moh.ebrahimi2000@tuta.io" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+homeTitle = "محمد ابراهیمی" # Title for home page
+poweredby = false # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+codeCopy = true # Add copy button above code blocks
+taxonomiesCount = true # Add taxonomies count
+
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+[params.social]
+github = "moheb2000"
+email = "moh.ebrahimi2000@tuta.io"
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","email","rss"]
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
