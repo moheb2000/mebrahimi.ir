@@ -1,7 +1,7 @@
 baseurl = "https://mebrahimi.ir"
 languageCode = "fa-IR"
 title = "محمد ابراهیمی"
-theme = "kiss"
+theme = "kiss_persian"
 copyright = "&copy; <a href=\"https://github.com/moheb2000\" target=\"_blank\">محمد ابراهیمی</a> 2021"
 disqusShortname = "mebrahimi"
 Paginate = 5 # Number of posts per page
