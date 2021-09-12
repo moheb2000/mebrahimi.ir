@@ -1,0 +1,3 @@
+[submodule "themes/kiss_persian"]
+	path = themes/kiss_persian
+	url = https://github.com/moheb2000/kiss_persian.git
